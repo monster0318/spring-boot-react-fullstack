@@ -22,4 +22,5 @@ public class EmailValidatorTest {
     public void itShouldValidateAnIncorrectEmailWithoutDotAtTheEnd() {
         assertThat(underTest.test("hello@gmail")).isFalse();
     }
+	
 }
